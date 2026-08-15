@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background: linear-gradient(90deg, #273d51 0.000%, #214973 16.667%, #226098 33.333%, #2b7eb8 50.000%, #399dcd 66.667%, #49b8d1 83.333%, #59c9c4 100.000%);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    border-radius: 14px;
+    background: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-top: -420px;
+}
+
+.usuario {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 23%;
+    left: 11%;
+}
+
+.input-usuario {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 36%;
+    left: 11%;
+    height: 50px;
+    width: 540px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.senha {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 44%;
+    left: 11%;
+}
+
+.input-senha {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 57%;
+    left: 11%;
+    height: 50px;
+    width: 540px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.botao-entrar {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    top: 70%;
+    height: 70px;
+    width: 300px;
+    border-radius: 17px;
+    border-style: double;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.botao-entrar-link {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 28%;
+}
+
+.botao-entrar:hover {
+    background-color: rgba(7, 107, 179, 0.293);
+}
+
+
+.botao-entrar:active {
+    transform: translateX(-5%) scale(0.90);
+    background-color: rgba(7, 107, 179, 0.2);
+}
+
+.recuperar-senha {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    top: 85%;
+    left: 11%;
+    color: #0573c2;
+}
+
+
+/* RECUPERAR SENHA */
+
+
+.matricula-recuperar-senha {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 23%;
+    left: 11%;
+}
+
+.input-matricula {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 36%;
+    left: 11%;
+    height: 50px;
+    width: 540px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.email-recuperar-senha {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 44%;
+    left: 11%;
+}
+
+.input-email {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 57%;
+    left: 11%;
+    height: 50px;
+    width: 540px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.botao-solicitar {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    top: 70%;
+    height: 70px;
+    width: 300px;
+    border-radius: 17px;
+    border-style: double;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.botao-solicitar-link {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 28%;
+}
+
+.botao-solicitar:hover {
+    background-color: rgba(7, 107, 179, 0.293);
+}
+
+
+.botao-solicitar:active {
+    transform: translateX(-5%) scale(0.90);
+    background-color: rgba(7, 107, 179, 0.2);
+}
+
+.botao-voltar {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    top: 86%;
+    left: 6%;
+    color: #0573c2;
+}
+
+
+/* SENHA RECUPERADA */
+
+
+.senha-recuperada {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    top: 29%;
+    left: 11%;
+    width: 540px;
+}
+
+
+/* PERFIL */
+
+
+.principal-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 1100px;
+    border-radius: 14px;
+    background: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6%;
+}
+
+.nome{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-top: -440px;
+    margin-left: 249px;
+}
+
+.foto {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -450px;
+    margin-right: 750px;
+}
+
+.email {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 30%;
+    left: 43%;
+}
+
+.matricula {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 37%;
+    left: 43%;
+}
+
+.curso {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 44%;
+    left: 43%;
+}
+
+.periodo {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 51%;
+    left: 43%;
+}
+
+.cpf {
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    top: 58%;
+    left: 43%;
+}
+
+.linha {
+    position:absolute;
+    height: 320px;
+    border-left: 3px solid black;
+    margin-top: 0px;
+    margin-left: -240px;
+}
+
+.botao-editar {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 70%;
+    height: 67px;
+    width: 200px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    margin-left: -700px;
+    margin-top: -280px;
+}
+
+.botao-boletim {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 70%;
+    height: 67px;
+    width: 200px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    margin-left: -700px;
+    margin-top: -220px;
+}
+
+.botao-disciplinas {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 70%;
+    height: 67px;
+    width: 200px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    margin-left: -700px;
+    margin-top: -160px;
+}
+
+.botao-projetos {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 70%;
+    height: 67px;
+    width: 200px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0573c2;
+    cursor: pointer;
+    margin-left: -700px;
+    margin-top: -100px; 
+}
