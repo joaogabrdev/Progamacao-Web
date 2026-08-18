@@ -4,7 +4,7 @@ body {
     background: linear-gradient(90deg, #273d51 0.000%, #214973 16.667%, #226098 33.333%, #2b7eb8 50.000%, #399dcd 66.667%, #49b8d1 83.333%, #59c9c4 100.000%);
 }
 
-.principal {
+#principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
     margin-top: 2%;
 }
 
-.titulo {
+#titulo {
     text-align: center;
     font-size: 40px;
     font-family: "Inter", sans-serif;
@@ -27,7 +27,7 @@ body {
     margin-top: -420px;
 }
 
-.usuario {
+#usuario {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -38,7 +38,7 @@ body {
     left: 11%;
 }
 
-.input-usuario {
+#input-usuario {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -53,7 +53,7 @@ body {
     border-style: double;
 }
 
-.senha {
+#senha {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -64,7 +64,7 @@ body {
     left: 11%;
 }
 
-.input-senha {
+#input-senha {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -79,7 +79,7 @@ body {
     border-style: double;
 }
 
-.botao-entrar {
+#botao-entrar {
     position: absolute;
     text-align: center;
     font-size: 30px;
@@ -97,24 +97,24 @@ body {
     transition: transform 0.1s ease, background-color 0.2s ease;
 }
 
-.botao-entrar-link {
+#botao-entrar-link {
     position: absolute;
     text-align: center;
     top: 70%;
     left: 28%;
 }
 
-.botao-entrar:hover {
+#botao-entrar:hover {
     background-color: rgba(7, 107, 179, 0.293);
 }
 
 
-.botao-entrar:active {
+#botao-entrar:active {
     transform: translateX(-5%) scale(0.90);
     background-color: rgba(7, 107, 179, 0.2);
 }
 
-.recuperar-senha {
+#recuperar-senha {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -131,7 +131,7 @@ body {
 /* RECUPERAR SENHA */
 
 
-.matricula-recuperar-senha {
+#matricula-recuperar-senha {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -142,7 +142,7 @@ body {
     left: 11%;
 }
 
-.input-matricula {
+#input-matricula {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -157,7 +157,7 @@ body {
     border-style: double;
 }
 
-.email-recuperar-senha {
+#email-recuperar-senha {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -168,7 +168,7 @@ body {
     left: 11%;
 }
 
-.input-email {
+#input-email {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -183,7 +183,7 @@ body {
     border-style: double;
 }
 
-.botao-solicitar {
+#botao-solicitar {
     position: absolute;
     text-align: center;
     font-size: 30px;
@@ -201,24 +201,24 @@ body {
     transition: transform 0.1s ease, background-color 0.2s ease;
 }
 
-.botao-solicitar-link {
+#botao-solicitar-link {
     position: absolute;
     text-align: center;
     top: 70%;
     left: 28%;
 }
 
-.botao-solicitar:hover {
+#botao-solicitar:hover {
     background-color: rgba(7, 107, 179, 0.293);
 }
 
 
-.botao-solicitar:active {
+#botao-solicitar:active {
     transform: translateX(-5%) scale(0.90);
     background-color: rgba(7, 107, 179, 0.2);
 }
 
-.botao-voltar {
+#botao-voltar {
     position: absolute;
     text-align: center;
     font-size: 22px;
@@ -235,7 +235,7 @@ body {
 /* SENHA RECUPERADA */
 
 
-.senha-recuperada {
+#senha-recuperada {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -251,7 +251,7 @@ body {
 /* PERFIL */
 
 
-.principal-perfil {
+#principal-perfil {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,7 +265,7 @@ body {
     margin-top: 2%;
 }
 
-.nome{
+#nome{
     text-align: center;
     font-size: 40px;
     font-family: "Inter", sans-serif;
@@ -275,7 +275,7 @@ body {
     margin-left: 249px;
 }
 
-.foto {
+#foto {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -284,7 +284,7 @@ body {
     margin-right: 750px;
 }
 
-.email {
+#email {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -295,7 +295,7 @@ body {
     left: 43%;
 }
 
-.matricula {
+#matricula {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -306,7 +306,7 @@ body {
     left: 43%;
 }
 
-.curso {
+#curso {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -317,7 +317,7 @@ body {
     left: 43%;
 }
 
-.periodo {
+#periodo {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -328,7 +328,7 @@ body {
     left: 43%;
 }
 
-.cpf {
+#cpf {
     position: absolute;
     text-align: center;
     font-size: 34px;
@@ -339,7 +339,7 @@ body {
     left: 43%;
 }
 
-.linha {
+#linha {
     position:absolute;
     height: 330px;
     border-left: 3px solid black;
@@ -347,7 +347,7 @@ body {
     margin-left: -240px;
 }
 
-.botao-editar {
+#botao-editar {
     position: absolute;
     text-align: center;
     font-size: 30px;
@@ -365,7 +365,7 @@ body {
     margin-top: -220px;
 }
 
-.botao-boletim {
+#botao-boletim {
     position: absolute;
     text-align: center;
     font-size: 30px;
@@ -383,7 +383,7 @@ body {
     margin-top: -160px;
 }
 
-.botao-disciplinas {
+#botao-disciplinas {
     position: absolute;
     text-align: center;
     font-size: 30px;
@@ -401,7 +401,7 @@ body {
     margin-top: -100px;
 }
 
-.botao-projetos {
+#botao-projetos {
     position: absolute;
     text-align: center;
     font-size: 30px;
