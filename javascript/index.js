@@ -1,7 +1,7 @@
 let titulo = document.getElementById("titulo");
 let aviso = document.getElementById("aviso");
 let input_usuario = document.getElementById("input-usuario");
-let input = document.getElementById("input-senha");
+let input_senha = document.getElementById("input-senha");
 let botao_entrar = document.getElementById("botao-entrar");
 
 
@@ -19,7 +19,7 @@ botao_entrar.addEventListener("click", function() {
             });
             if (
                 usuarioEncontrado &&
-                usuarioEncontrado.senha === input.value
+                usuarioEncontrado.senha === input_senha.value
             ) {
                 aviso.style.color = "green";
                 aviso.textContent =
@@ -37,7 +37,7 @@ botao_entrar.addEventListener("click", function() {
                 aviso.textContent =
                     "Usuário ou senha incorretos.";
                 input_usuario.value = "";
-                input.value = "";
+                input._senha.value = "";
             }
         })
 });

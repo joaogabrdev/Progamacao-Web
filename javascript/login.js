@@ -20,13 +20,13 @@ fetch("../dados/usuarios.json")
             return usuario.usuario === usuarioLogado;
         });
         if (usuarioEncontrado) {
-            nome.textContent = usuarioEncontrado.nome
-            foto_de_perfil.src = usuarioEncontrado.foto_de_perfil
-            email.textContent += usuarioEncontrado.email
-            matricula.textContent += usuarioEncontrado.usuario
-            curso.textContent += usuarioEncontrado.curso
-            periodo.textContent += usuarioEncontrado.periodo + "º"
-            cpf.textContent += usuarioEncontrado.cpf
+            nome.textContent = " " + usuarioEncontrado.nome
+            foto_de_perfil.src = " " + usuarioEncontrado.foto_de_perfil
+            email.textContent += " " + usuarioEncontrado.email
+            matricula.textContent += " " + usuarioEncontrado.usuario
+            curso.textContent += " " + usuarioEncontrado.curso
+            periodo.textContent += " " + usuarioEncontrado.periodo + "º"
+            cpf.textContent += " " + usuarioEncontrado.cpf
         }
     });
 
