@@ -1,0 +1,44 @@
+{
+    "usuarios": [
+        {
+            "nome": "João Gabriel Oliveira",
+            "usuario": "2026JOAO",
+            "senha": "gabriel",
+            "email": "joaogabriel@exemplo.com",
+            "cpf": "000.000.000-01",
+            "curso": "Técnico em Informática",
+            "periodo": "4",
+            "foto_de_perfil": "https://i.pinimg.com/736x/8b/cf/87/8bcf876b419b64a9c8f38b1808e24384.jpg"
+        },
+        {
+            "nome": "Vitor Almeida",
+            "usuario": "2026VITOR",
+            "senha": "2026Vitor",
+            "email": "vitor.almeida@gmail.com",
+            "cpf": "180.559.275-02",
+            "curso": "Técnico em Administração",
+            "periodo": "4",
+            "foto_de_perfil": "https://i.pinimg.com/736x/13/17/ab/1317ab763de05deab49f9eea5c6ec442.jpg"
+        },
+        {
+            "nome": "Davi Silva",
+            "usuario": "2026DAVI",
+            "senha": "2026Davi",
+            "email": "davi.silva@gmail.com",
+            "cpf": "309.091.069-16",
+            "curso": "Técnico em Edificações",
+            "periodo": "2",
+            "foto_de_perfil": "https://i.pinimg.com/1200x/81/7a/47/817a47ce8e921dcc0f02013e0f986954.jpg"
+        },
+        {
+            "nome": "Cristiane Souza",
+            "usuario": "2026CRISTIANE",
+            "senha": "2026Cristiane",
+            "email": "cristiane.souza@gmail.com",
+            "cpf": "669.694.082-05",
+            "curso": "Técnico em Eletrotécnica",
+            "periodo": "6",
+            "foto_de_perfil": "https://i.pinimg.com/736x/7b/09/25/7b092550817165757f25d379e8564c2d.jpg"
+        }
+    ]
+}
