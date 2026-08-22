@@ -35,16 +35,22 @@ botao_alterar.addEventListener("click", function() {
         }, 2300);
         
     } else {
-        if (input_senha_1.value === input_senha_2.value) {
-            aviso.textContent = "Pressionde novamente para alterar a senha.";
-            aviso.style.color = "green";
-            senha_confirmada = true
-        } else {
+        if (input_senha_1.value == "") {
             senha_confirmada = false
-            aviso.textContent = "As senhas não coincidem, tente novamente.";
+            aviso.textContent = "As senhas não podem estar em branco.";
             aviso.style.color = "red";
-            input_senha_1.value = "";
-            input_senha_2.value = "";
+        } else {
+            if (input_senha_1.value === input_senha_2.value) {
+                aviso.textContent = "Pressionde novamente para alterar a senha.";
+                aviso.style.color = "green";
+                senha_confirmada = true
+            } else {
+                senha_confirmada = false
+                aviso.textContent = "As senhas não coincidem, tente novamente.";
+                aviso.style.color = "red";
+                input_senha_1.value = "";
+                input_senha_2.value = "";
+            }
         }
     }
 });

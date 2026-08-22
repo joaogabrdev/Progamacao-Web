@@ -544,11 +544,22 @@ body::before {
     margin-top: -40px; 
 }
 
+.botao-voltar-login {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    top: 86%;
+    color: #0573c2;
+}
+
 /* Media */
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (max-height: 700px) {
 
-    html,
     body {
         width: 100%;
         min-height: 100%;
@@ -556,7 +567,7 @@ body::before {
         overflow-x: hidden;
     }
     body {
-        min-height: 100vh;
+        min-height: 100px;
     }
 
     /* FUNDO */
@@ -663,4 +674,57 @@ body::before {
         margin: 30px 0 0;
         font-size: 25px;
     }
+}
+
+    /* LOGIN */
+
+    .principal-perfil {
+        position: relative;
+        box-sizing: border-box;
+        max-width: 500px;
+        height: auto;
+        min-height: 600px;
+        margin: 20px auto 0;
+        transform: none;
+        padding: 30px 20px;
+        overflow: hidden;
+    }
+
+    .nome {
+        position: absolute;
+        left: auto;
+        font-size: clamp(20px, 5vw, 28px);
+    }
+
+    .foto {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        width: 130px;
+        height: 130px;
+        margin: 15px 0 8px;
+        font-size: 24px;
+    }
+
+    .linha,
+    .botao-perfil,
+    .botao-boletim,
+    .botao-disciplinas,
+    .botao-projetos,
+    .aviso-login {
+        display: none;
+    }
+
+    .email,
+    .matricula,
+    .curso,
+    .periodo,
+    .cpf {
+        font-size: 29px;
+        left: 25px
+    }
+
+    .botao-voltar-login {
+    font-size: 17px;
+    top: 89%;
 }

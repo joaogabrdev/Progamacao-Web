@@ -49,8 +49,8 @@ botao_recuperar.addEventListener("click", function() {
                 } else {
                     aviso.style.color = "red";
                     aviso.textContent = "CPF ou email incorretos.";
-                    input_cpf.value = "";
-                    input_email.value = "";
+                    cpf.value = "";
+                    email.value = "";
                 }
             } else {
                 aviso.style.color = "red";

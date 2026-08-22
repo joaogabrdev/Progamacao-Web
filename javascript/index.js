@@ -37,7 +37,7 @@ botao_entrar.addEventListener("click", function() {
                 aviso.textContent =
                     "Usuário ou senha incorretos.";
                 input_usuario.value = "";
-                input._senha.value = "";
+                input_senha.value = "";
             }
         })
 });
