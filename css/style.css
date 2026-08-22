@@ -674,7 +674,6 @@ body::before {
         margin: 30px 0 0;
         font-size: 25px;
     }
-}
 
     /* LOGIN */
 
@@ -727,4 +726,5 @@ body::before {
     .botao-voltar-login {
     font-size: 17px;
     top: 89%;
+    }
 }
