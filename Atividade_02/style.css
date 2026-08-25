@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {    
+    background-color: white;
+    overflow: hidden;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    width: 620px;
+    border-radius: 20px;
+    background: #EAEBED;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+}
+
+.titulo {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-top: -380px;
+}
+
+.nome {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 23%;
+    left: 11%;
+}
+
+.input-nome {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 36%;
+    left: 10%;
+    height: 50px;
+    width: 500px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.senha {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    top: 44%;
+    left: 10%;
+}
+
+.input-senha {
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    top: 57%;
+    left: 10%;
+    height: 50px;
+    width: 500px;
+    border-radius: 13px;
+    border-style: double;
+}
+
+.botao-ok {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    left: 27%;
+    top: 70%;
+    height: 70px;
+    width: 300px;
+    border-radius: 17px;
+    border-style: double;
+    background-color: rgba(0, 0, 0, 0);
+    color: #303030;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.botao-ok:hover {
+    background-color: rgba(7, 107, 179, 0.293);
+}
+
+
+.botao-ok:active {
+    transform: translateX(-5%) scale(0.90);
+    background-color: rgba(7, 107, 179, 0.2);
+}
